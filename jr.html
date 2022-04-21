@@ -6,36 +6,38 @@
         <title>OBS</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="styles-home.css">
     </head>
     <body>
+        <div class="headerwrapper">
         <header>
             <div class="logotitle">
-                <img class="logo" src="images/aclclogo.png" alt="logo" width="50" height="50">
-                 <h1> Student Online Booking System</h1>
+                <img class="logo" src="pagelogo.png" alt="logo" width="200px" height="50%">
             </div>
         <nav>
             <ul class="nav_links">
                 <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contacts</a></li>
+                <li><a href="#">Study</a></li>
+                <li><a href="#">Quiz</a></li>
+                <li><a href="#">Answer Key</a></li>
             </ul>
             </nav>
         </header>
-        <div>
-            <img class="mainbg" src="images/aclcbgmainpic.jpg" alt="mainbg">
-            <div class="container">
-                <label for="uname"><b>Username</b></label>
-                <input type="text" placeholder="Enter Username" name="uname" required>
-            
-                <label for="psw"><b>Password</b></label>
-                <input type="password" placeholder="Enter Password" name="psw" required>
-                    
-                <button type="submit">Login</button>
-                <label>
-                  <input type="checkbox" checked="checked" name="remember"> Remember me
-                </label>
-              </div>
+        </div>
+        <div class="threemainchoices">
+            <h1>What would you like to do today?</h1>
+            <div class="choiceone">
+                <h2>Study</h2>
+                <a href="Study.html" class="fill-div"></a>
+            </div>
+            <div class="choicetwo">
+                <h2>Quiz</h2>
+                <a href="Quiz.html" class="fill-div"></a>
+            </div>
+            <div class="choicethree">
+                <h2>Answer Key</h2>
+                <a href="Answer.html" class="fill-div"></a>
+            </div>
         </div>
     </body>
 </html>
