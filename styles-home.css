@@ -1,15 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
-* {
+body {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(159, 109, 92);
 }
 
 li, a {
     font-family: "Monsterrat", sans-serif;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 16px;
     color: #000000;
     text-decoration: none;
@@ -17,19 +18,11 @@ li, a {
 
 header {
    display: flex;
-   justify-content: space-between;
+   justify-content:left;
    align-items: center;
-   padding: 1% 5%; 
+   padding: 1% 5vh; 
    background-color: white;
-}
-
-.logotitle h1{
-    float: right;
-}
-
-.logo {
-    cursor: pointer;
-}
+}   
 
 .nav_links {
     list-style: none;
@@ -45,58 +38,79 @@ header {
 }
 
 .nav_links li a:hover {
-    color: aliceblue;
+    color: rgb(77, 226, 43);
 }
 
-button {
-    padding: 9px 25px;
-    background-color: lightgreen;
-    border: none;
-    border-radius: 50px;
-    cursor: pointer;
-    transition: all 0.3s ease 0s;
+.headerwrapper {
+    position: sticky;
+    top: 0;
+    z-index: 100;
 }
 
-button:hover {
-    background-color: rgb(11, 255, 32);
-    opacity: 0.8;
+.threemainchoices {
+    display: flex;
+    justify-content:left;
+    align-items: center;
+    justify-content: space-between;
+    background-color: aquamarine;
+    padding: 3% 2% 2% 4%;
 }
 
-body {
-    background-image: url('aclcbgmainpic.jpg');
-    height: 100vh;
-    width: auto;
-    ackground-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    text-align: justify;
+.threemainchoices h1 {
+    display: block;
 }
 
-.mainbg {
-    position: absolute;
-    z-index: -1;
+.choiceone {
+    display: block;
+    background-color: red;
+    width: 20%;
+    height: 60vh;
+    box-shadow: 5px 5px #888888;
+    border-radius: 12px;
 }
 
-.userlogform {
-    position: absolute;
-    left: 50%;
-}
-.container {
-    position: absolute;
-    background-color: grey;
-    left: 60%;
-    padding: 3% 2% 3% 2%;
+.choicetwo {
+    display: block;
+    background-color: yellow;
+    width: 20%;
+    height: 60vh;
+    box-shadow: 5px 5px #888888;
+    border-radius: 12px;
 }
 
-span.psw {
-    float: right;
-    padding-top: 16px;
+.choicethree {
+    display: block;
+    background-color: green;
+    width: 20%;
+    height: 60vh;
+    box-shadow: 5px 5px #888888;
+    border-radius: 12px;
 }
 
-label {
-    font-family: "Monsterrat", sans-serif;
-    font-weight: 500;
-    font-size: 16px;
+.choiceone, .choicetwo {
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 600;
+    font-size: 24px;
     color: #000000;
+    text-decoration: none;
+}
+
+.choicethree h2 {
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 600;
+    font-size: 34px;
+    color: #000000;
+    text-decoration: none;
+}
+.choiceone:hover, .choicetwo:hover, .choicethree:hover {
+    background-color: aliceblue;
+}
+
+.fill-div {
+    display: block;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
 }
