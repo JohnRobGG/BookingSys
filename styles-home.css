@@ -106,11 +106,10 @@ header {
 }
 .choiceone:hover, .choicetwo:hover, .choicethree:hover {
     background-color: aliceblue;
+    box-shadow: 0 0 50px -14px #000;
 }
 
-.fill-div {
-    display: block;
-    height: 100%;
+.studylogoicon {    
     width: 100%;
-    text-decoration: none;
+    height: auto;
 }
