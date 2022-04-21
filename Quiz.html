@@ -16,7 +16,7 @@
     </ul>
 </nav>
 </section>
-<body>
+<body   onload="ono()">
 <br>
 <br>
 <br>
@@ -27,6 +27,9 @@
 <br>
 <br>
 <form>
+
+<div id="ohno">
+
 <p>1.	Zoology is the study of _____________.</p>
 <input type="radio"  name="lol" id="lol">A. animals<br>
 <input type="radio"  name="lol">B. plants<br>
@@ -128,12 +131,26 @@
 <input type="radio"  name="ala">D. NADPH+<br><br>
 
 <input type="button" value="press me to know your scores" onclick="idont()">
+
+</div>
+
 <br>
-<p id="last"></p>
+
+<div id="non">
+<p id="last"></p><br>
+<a href="Ans.html">Proceed to Answer Key?</a>
+</div>
+
 <br>
 </form>
 
     <script>
+
+    function ono() {
+	var z = document.getElementById("non");
+        z.style.display = "none";
+}
+
     function idont() {
          var num1 = document.getElementById("lol");
          var num2 = document.getElementById("a");
@@ -179,6 +196,21 @@
          document.getElementById("last").innerHTML = "your total score is "+ total;
          alert('your total score is '+ total +'. Proceed to answer key?');
          
+         
+         var x = document.getElementById("ohno");
+         if (x.style.display === "none") {
+         x.style.display = "block";
+         } else {
+         x.style.display = "none";
+         }
+
+         var y = document.getElementById("non");
+         if (y.style.display === "none") {
+         y.style.display = "block";
+         } else {
+         y.style.display = "block";
+         }
+
     }
     </script>
 </body>
