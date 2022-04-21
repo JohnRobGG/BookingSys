@@ -86,3 +86,92 @@ background: rgba(225, 225, 225, 0.5);
 }
 </script>
 </html>
+=======
+<!<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>UwU</title>
+    <style media="screen">
+      body{
+        font-family: Arial;
+      }
+      .UwU{
+margin:0px;
+/* The image used */
+background-image: url("food_bg.jpg");
+height: 500px;
+/* Full height */
+height: 100%;
+/* Center and scale the image nicely */
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+.UwU2{
+  background-color: white;
+  height:50px;
+  border-top:3px solid lightgray;
+}
+.lol{
+  position:relative;
+  text-align:center;
+  transition-delay: 0.5s;
+  opacity: 1;
+  	animation-name: fadeInOpacity;
+  	animation-iteration-count: 1;
+  	animation-timing-function: ease-in;
+  	animation-duration: 2s;
+  }
+
+  @keyframes fadeInOpacity {
+  	0% {
+  		opacity: 0;
+  	}
+  	100% {
+  		opacity: 1;
+  	}
+  }
+  .text{
+width:200px;
+  }
+  .UwU3{
+    position: absolute;
+top: 40%;
+left: 400px;
+width: 500px;
+border-style: solid;
+border-color: rgba(225, 225, 225, 0.75);
+padding: 35px 35px 75px 100px;
+background: rgba(225, 225, 225, 0.5);
+  }
+
+    </style>
+  </head>
+  <body>
+    <div class="UwU">
+      <h1 class="lol">UwU test</h1>
+      <p style="">this is an UwU test</p>
+    </div>
+    <div class="UwU22">
+
+    </div>
+    <div class="UwU3">
+      <label class="text" for="fname">Email Address:</label>
+    <input class="text" type="text" id="fname" name="fname">
+    <p></p>
+    <label class="text">Student Number:</label>
+    <input class="text" type="text" id="fname" name="fname">
+    <p></p>
+    <div class="change1">
+    <button type="submit" id="change" onclick="OmO()">Log In</button>
+    </div>
+    </div>
+  </body>
+<script type="text/javascript">
+	function OmO(){
+            alert('Hello world!')
+            document.location='index.html';
+}
+</script>
+</html>
