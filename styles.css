@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 255, 255);
+}
+
+li, a {
+    font-family: "Monsterrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #000000;
+    text-decoration: none;
+}
+
+header {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 1% 5%; 
+   background-color: white;
+}
+
+.logotitle h1{
+    float: right;
+}
+
+.logo {
+    cursor: pointer;
+}
+
+.nav_links {
+    list-style: none;
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover {
+    color: aliceblue;
+}
+
+button {
+    padding: 9px 25px;
+    background-color: lightgreen;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+    background-color: rgb(11, 255, 32);
+    opacity: 0.8;
+}
+
+body {
+    background-image: url('aclcbgmainpic.jpg');
+    background-repeat: no-repeat;
+}
+
+.mainbg {
+    position: absolute;
+    z-index: -1;
+}
+
+.userlogform {
+    position: absolute;
+    left: 50%;
+}
+.container {
+    position: absolute;
+    background-color: grey;
+    left: 60%;
+    padding: 3% 2% 3% 2%;
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+label {
+    font-family: "Monsterrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #000000;
+}
