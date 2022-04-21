@@ -1,0 +1,94 @@
+img{
+position: sticky;
+}
+body{
+  color: white;
+  margin: 0;
+  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(image.jpg);
+  height: 100vh;
+  width: auto;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  text-align: justify;
+}
+nav{
+	font-family: Tahoma;
+	border-bottom:3px solid white;
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(image.jpg);
+  height: 7vh;
+  width: 5000px;
+  background-position: center;
+}
+nav ul {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+}
+
+nav ul li {
+ float:left;
+}
+
+nav ul li a {
+		display: block;
+		color: white;
+		text-align: center;
+		padding: 14px 16px;
+		text-decoration: none;
+}
+
+li a:hover {
+		background-color: #111;
+}
+header{
+	font-family: Tahoma;
+	color: white ;
+	font-style: bold;
+	text-align: left;
+	padding-left: 3%;
+        padding-top: 1%;
+        margin: 0 auto;
+	border-bottom: 2px solid white;
+	background-image: linear-gradient(rgba(1,0,0,0.3),rgba(1,0,0,0.3)),url(images.jpg);
+  height: 75px;
+  width: 5000px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  }
+#la{
+    border-bottom: 2px solid white;
+    }
+section{
+	font-family:Tahoma;
+	color: white;
+	text-align: justify;
+}
+form{
+	font-family:Tahoma;
+	color: white;
+	text-align: justify;
+	margin: 20px;
+}
+textarea{
+	font-family:Tahoma;
+}
+
+footer{
+  	font-family: Tahoma;
+  	color: white;
+  	font-style: bold;
+  	text-align: center;
+  	padding: 5px 5px;
+  	clear: both;
+  	margin-top: 10%;
+  	border-top: 2px solid white;
+}
+#s{
+width: 1000px;
+position: fixed;
+}
