@@ -12,7 +12,7 @@
     <ul>
       <li><a href="index.html">Home</a></li>
       <li><a href="study guide.html">Study Guide</a></li>
-      <li><a href="Ans.html">Answer Key</a></li>
+      <li><a href="Ans.html" id="pop">Answer Key</a></li>
     </ul>
 </nav>
 </section>
@@ -148,7 +148,9 @@
 
     function ono() {
 	var z = document.getElementById("non");
+	var x = document.getElementById("pop");
         z.style.display = "none";
+	x.style.display = "none";
 }
 
     function idont() {
@@ -209,6 +211,13 @@
          y.style.display = "block";
          } else {
          y.style.display = "block";
+         }
+
+ 	 var z = document.getElementById("pop");
+	 if (z.style.display === "none") {
+         z.style.display = "block";
+         } else {
+         z.style.display = "block";
          }
 
     }
