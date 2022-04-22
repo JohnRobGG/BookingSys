@@ -92,3 +92,7 @@ footer{
 width: 1000px;
 position: fixed;
 }
+
+#last{
+	font-size: 50px;
+}
