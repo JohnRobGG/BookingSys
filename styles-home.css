@@ -108,8 +108,13 @@ header {
 }
 
 .letter-spacings {
-    width: 40%;
-    padding-left: 30%;
+    width: 80%;
+    padding-left: 10%;
+}
+
+.letter-spacingstwo {
+    width: 60%;
+    padding-left: -10%;
 }
 
 .choicetwo {
@@ -191,8 +196,30 @@ header {
 }
 .sectionone {
     background-color: white;
+    display: flex;
+    justify-content: space-between;
 }
 
+.sectionpictwo {
+    position: fixed;
+}
+.letterspartone {
+    margin-left: 10%;
+}
+
+.sectionpartright {
+    margin-right: 15%;
+}
+
+.sectiontwo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.partleft {
+    float:right;
+    margin-left: 30%;
+}
 .headmaintitles {
     background-color: rgb(255, 255, 255, 0);
     font-family: 'Lobster', cursive;
@@ -203,6 +230,18 @@ header {
     text-decoration: none;
     margin: 0;
     padding: 3% 5% 1% 5%;
+}
+
+.headmaintitlestwo {
+    background-color: rgb(255, 255, 255, 0);
+    font-family: 'Lobster', cursive;
+    font-weight: 600;
+    font-style: bold;
+    font-size: 36px;
+    color: #000000;
+    text-decoration: none;
+    margin-left: -40%;
+
 }
 
 footer{
