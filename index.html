@@ -11,17 +11,22 @@
     <body>
         <div class="headerwrapper">
         <header>
-            <div class="logotitle">
-                <img class="logo" src="pagelogo.svg" alt="logo" width="200px" height="50%">
+            <div class="topheadleft">
+                <div class="logotitle">
+                    <img class="logo" src="pagelogo.svg" alt="logo" width="200px" height="50%">
+                </div>
+            <nav>
+                <ul class="nav_links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="study.html">Study</a></li>
+                    <li><a href="Quiz.html">Quiz</a></li>
+                    <li><a href="Answer.html">Answer Key</a></li>
+                </ul>
+            </nav>    
             </div>
-        <nav>
-            <ul class="nav_links">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="study.html">Study</a></li>
-                <li><a href="Quiz.html">Quiz</a></li>
-                <li><a href="Answer.html">Answer Key</a></li>
-            </ul>
-            </nav>
+            <div class="topheadright">
+                <a class="topnavlogin" href="index.html">Login</a>
+            </div>
         </header>
         </div>
         <div class="threemainchoices">
@@ -32,7 +37,7 @@
             </div>        
             <div class="choicetwo" onclick="location.href='Quiz.html';" style="cursor: pointer;">
                 <h2>Quiz</h2>
-                <img class="studylogoicon" src="quizlogo.svg" width="100px" height="100px">
+                <img class="studylogoicon" src="quizlogo.svg" width="100px" height="100px" onmouseover="quizlogogreen.svg">
             </div>
             <div class="choicethree" onclick="location.href='Answer.html';" style="cursor: pointer;">
                 <h2>Answer Key</h2>
