@@ -11,15 +11,33 @@
           font-size: 40px;
           padding: 1%;
         }
-        .buttons{
-          text-align: left;
-          color:white;
-          background:lightgreen;
-          font-size:20px;
-          padding:1%;
-          text-decoration:none;
-          font-weight: 800;
-        }
+        .nav_links {
+     list-style: none;
+     text-decoration:none;
+     font-family:'Courier New', Courier, monospace;
+     font-size: 20px;
+     color:black;
+}
+.nav_links a {
+     list-style: none;
+     text-decoration:none;
+     font-family:'Courier New', Courier, monospace;
+     font-size: 20px;
+     color:black;
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover {
+    color: rgb(58, 177, 58);
+}
         p{
           text-align: justify;
           text-indent: 15px;
@@ -42,11 +60,13 @@
  <div class="Title">
      <h1>Answer Key</h1>
  </div>
- <div class="buttons">
-    <a href = "index.html">Home</a><br>
-    <a href = "study.html">Study Guide</a><br>
-    <a href = "Quiz.html">Quiz</a>
- </div>
+ <nav>
+   <ul class="nav_links">
+    <li><a href = "index.html">Home</a><br></li>
+    <li><a href = "study.html">Study Guide</a><br></li>
+    <li><a href = "Quiz.html">Quiz</a></li>
+    </ul>
+ </nav>
 
 <br>
 <h2>1.<b>Zoology</b> is the study of _____________.</h2>
