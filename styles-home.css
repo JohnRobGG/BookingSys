@@ -23,7 +23,7 @@ li, a {
 
 header {
    display: flex;
-   justify-content:left;
+   justify-content:space-between;
    align-items: center;
    padding: 1% 5vh; 
    background-color: white;
@@ -31,6 +31,7 @@ header {
 
 .nav_links {
     list-style: none;
+    display: block;
 }
 
 .nav_links li {
@@ -46,10 +47,36 @@ header {
     color: rgb(58, 177, 58);
 }
 
+.topnavlogin:hover {
+    color: rgb(255, 255, 255);
+    box-shadow: 0 0 15px 4px rgb(188, 188, 188);
+}
+
+.topnavlogin {
+    background-color: rgb(73, 168, 73);
+    padding: 8px 15px;  
+    border-radius: 40px 40px;
+}
+
 .headerwrapper {
     position: sticky;
     top: 0;
     z-index: 100;
+    border-bottom: 1px solid #a7a7a7;
+    justify-content: space-between;
+}
+
+.logotitle {
+    display: block;
+}
+
+.topheadleft {
+    display: inline-flex;
+    align-items: center;
+}
+
+.topheadright {
+    float: right;
 }
 
 .threemainchoices {
@@ -121,9 +148,24 @@ header {
     text-decoration: none;
     position: relative;
 }
-.choiceone:hover, .choicetwo:hover, .choicethree:hover {
+.choiceone:hover {
     background-color: aliceblue;
     box-shadow: 0 0 50px -14px #000;
+    color: rgb(58, 177, 58);
+}
+
+.choicetwo:hover {
+    background-color: aliceblue;
+    box-shadow: 0 0 50px -14px #000;
+    color: rgb(58, 177, 58);
+}
+
+.choicethree:hover {
+    background-color: aliceblue;
+    box-shadow: 0 0 50px -14px #000;
+}
+.choicethree:hover h2 {
+    color: rgb(58, 177, 58);
 }
 
 .studylogoicon {    
